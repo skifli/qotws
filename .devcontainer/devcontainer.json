@@ -34,6 +34,5 @@
         "6080": {
             "label": "desktop"
         }
-    },
-    "onCreateCommand": "pip install -r requirements.txt"
+    }
 }
