@@ -1,2 +1,5 @@
-# qotws
-Question of the Week submissions from Aneeq W
+# QOTWs
+
+- [QOTWs](#qotws)
+
+If you know, you know.
