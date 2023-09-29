@@ -21,4 +21,4 @@ for char_and_num in chars.items():
     if char_and_num[1] in numbers:
         password.append(char_and_num[0])
 
-print("".join(password))
+print(f"`{''.join(password)}`")
