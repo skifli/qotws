@@ -43,13 +43,11 @@ def calculate_distance(corner_flag):
 with open(f"{path}/../assets/grid.txt", "r", encoding="utf-8") as f:
     grid = [[char for char in line if char != "\n"] for line in f.readlines()]
 
-if __name__ == "__main__":
-    corner_flag = input("Input corner flag: ")
-
-    if corner_flag not in ("TOP_LEFT", "TOP_RIGHT", "BOTTOM_RIGHT", "BOTTOM_LEFT"):
-        print(
-            "Invalid corner flag - has to be one of `(TOP_LEFT, TOP_RIGHT, BOTTOM_RIGHT, BOTTOM_LEFT)`."
-        )
-        exit(1)
-
-    print(calculate_distance(corner_flag))
+print(
+    sum(
+        [
+            calculate_distance(corner_flag)
+            for corner_flag in ("TOP_LEFT", "TOP_RIGHT", "BOTTOM_RIGHT", "BOTTOM_LEFT")
+        ]
+    )
+)
