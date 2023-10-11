@@ -19,19 +19,7 @@ def get_adjacent(coords: tuple[int]):
 with open(f"{path}/../assets/grid.txt", "r", encoding="utf-8") as f:
     grid = [[char for char in line if char != "\n"] for line in f.readlines()]
 
-choice = input(
-    "Enter coordinates (x, y) or `def` for (27, 32), (91, 98), (12, 87), (46, 17): "
-)
-
-if choice == "def":
-    coords = [[27, 32], [91, 98], [12, 87], [46, 17]]
-else:
-    coords = [
-        [
-            int(element)
-            for element in choice.replace("(", "").replace(")", "").strip().split(",")
-        ]
-    ]
+coords = [[27, 32], [91, 98], [12, 87], [46, 17]]
 
 adjacent_coords = [[coord] + get_adjacent(coord) for coord in coords]
 
