@@ -13,8 +13,6 @@
         "ms-python.pylint",
         "ms-python.python",
         "pkief.material-icon-theme",
-        "redhat.vscode-yaml",
-        "trond-snekvik.simple-rst",
         "yzhang.markdown-all-in-one",
     ],
     "unwantedRecommendations": [

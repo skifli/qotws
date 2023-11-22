@@ -4,7 +4,7 @@ One-liner in `part_2-oneliner.py`.
 
 from part_1 import path, numbers
 
-with open(f"{path}/assets/How Many.txt", "r", encoding="utf-8") as f:
+with open(f"{path}/../assets/How Many.txt", "r", encoding="utf-8") as f:
     text = f.read()
 
 chars = {}

@@ -1,4 +1,5 @@
 Long story short, this past week in QOTW:
+
 1. Joshua fell down a hole in the advanced section (which seems to have gotten stuck in limbo).
 2. The easy section was too hard.
 
