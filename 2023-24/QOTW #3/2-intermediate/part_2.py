@@ -9,8 +9,6 @@ def return_corner_chars(x, y) -> int:
     """
     Returns the chars in the corners around (x, y)."""
 
-    print(x, y)
-
     coords = [
         (x - 1, y - 1),
         (x + 1, y - 1),
@@ -30,6 +28,8 @@ def return_corner_chars(x, y) -> int:
             coord_chars.append(" ")
         else:
             coord_chars.append(inscription[coord[1]][coord[0]])
+
+    # [coord_chars.append(" ") if coord[1] < 0 or coord[0] < 0 or coord[1] >= len(inscription) or coord[0] >= len(inscription[coord[1]]) else coord_chars.append(inscription[coord[1]][coord[0]]) for coord in coords]
 
     return coord_chars
 
