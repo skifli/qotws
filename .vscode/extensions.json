@@ -7,12 +7,12 @@
         "donjayamanne.githistory",
         "gruntfuggly.todo-tree",
         "kevinrose.vsc-python-indent",
-        "leonardssh.vscord",
         "mhutchie.git-graph",
         "ms-python.black-formatter",
         "ms-python.pylint",
         "ms-python.python",
         "pkief.material-icon-theme",
+        "wakatime.vscode-wakatime",
         "yzhang.markdown-all-in-one",
     ],
     "unwantedRecommendations": [
